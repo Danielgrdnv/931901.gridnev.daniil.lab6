@@ -1,0 +1,67 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+main {
+  box-shadow: 0 0 2px grey;
+  width: 800px;
+  margin: auto;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+img {
+  padding: 10px;
+  height: 75%;
+  width: 90%;
+}
+
+.block {
+  height: 380px;
+  min-width: 5%;
+  text-align: center;
+  width: 50%;
+}
+
+.column {
+  width: 95%;
+  text-align: left;
+}
+
+.column img {
+  width: 67%;
+}
+
+.hide {
+  width: 5%;
+}
+.hide img {
+  display: none;
+}
+
+#left {
+  background-color: blue;
+  float: left;
+}
+
+#right {
+  background-color: green;
+  float: right;
+}
+
+table {
+  width: 100%;
+  background-color: black;
+}
+td {
+  font-size: 20px;
+  padding: 10px;
+  text-align: center;
+  color: white;
+  background-color: red;
+}
+
+td:nth-child(2) {
+  border-left: 2px solid black;
+  border-right: 2px solid black;
+}

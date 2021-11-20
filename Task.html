@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <title>Fronend Task№6</title>
+    <link rel="stylesheet" type="text/css" href="Task.css" />
+  </head>
+  <body>
+    <main>
+      <table>
+        <tr>
+          <td onclick="leftColumn()">Левая колонка</td>
+          <td onclick="centerColumn()">Две колонки</td>
+          <td onclick="rightColumn()">Правая колонка</td>
+        </tr>
+      </table>
+
+      <div id="left" class="block column">
+        <img src="cat.jpg" alt="cat">
+      </div>
+
+      <div id="right" class="block hide">
+        <img src="dog.jpg" alt="dog">
+      </div>
+    </main>
+    <script src="Task.js"></script>
+  </body>
+</html>
